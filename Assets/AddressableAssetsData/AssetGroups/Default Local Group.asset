@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_GUID: 7e70820d9e2745c4c9f791d65948c70b
+  m_SerializeEntries:
+  - m_GUID: 8201410c91d0720438d4a2bc1948eda0
+    m_Address: Assets/Game Objects/Flour.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de7f60b9e7a329e4fab29b7f213ca6cc
+    m_Address: Assets/Game Objects/Wheat.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Item
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f373924284e2b6148a088e3d29760e08
+    m_Address: Assets/Game Objects/Bread.asset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Item
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0f325c6323c41774aa6ebdb142252143, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0a73ec00d99e3b942a50073b1b21a04d, type: 2}
+    - {fileID: 11400000, guid: 81fe79f0467a13047afeacbaa60fbd4d, type: 2}
