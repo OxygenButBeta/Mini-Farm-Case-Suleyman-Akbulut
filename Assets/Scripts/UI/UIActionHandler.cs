@@ -8,7 +8,7 @@ using UnityEngine.InputSystem.UI;
 using Zenject;
 
 public class UIActionHandler : MonoBehaviour{
-    [SerializeField] private ScreenToWorldRaycaster m_rayCaster;
+    [SerializeField] private ScreenToWorldSphereCaster m_rayCaster;
     InputSystemUIInputModule m_inputSystemUIInputModule;
     public readonly ReactiveProperty<FarmFactory> SelectedFactory = new();
 

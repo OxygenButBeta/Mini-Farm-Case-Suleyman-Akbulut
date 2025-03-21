@@ -6,7 +6,7 @@ using UnityEngine;
 /// It attempts to detect and return a target object of type TTarget if a hit occurs within a specified range.
 /// </summary>
 [Serializable]
-public class ScreenToWorldRaycaster{
+public class ScreenToWorldSphereCaster{
     Camera m_povCamera;
     [SerializeField] float rayLength = 5f;
     [SerializeField] private float castSphereRadius = .2f;

@@ -7,7 +7,7 @@ using Zenject;
 /// This solution is case-specific and intended for quick implementation. 
 /// </summary>
 [DefaultExecutionOrder(99999)]
-public class SaveHandler : MonoBehaviour{
+public class MonoSaveTrigger : MonoBehaviour{
     [Inject] SaveableContainer m_saveableContainer;
 
     private void Awake(){
